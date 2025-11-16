@@ -19,9 +19,9 @@
  
 
 ## Téléchargement##
-## APK de l'Application
-## Téléchargez l'APK directement pour l'installer sur votre appareil Android :
-## 📲 Télécharger l'APK (Lien Google Drive)
+APK de l'Application
+# Téléchargez l'APK directement pour l'installer sur votre appareil Android :
+# 📲 Télécharger l'APK (Lien Google Drive)
  
 ##  Fonctionnalités
 
