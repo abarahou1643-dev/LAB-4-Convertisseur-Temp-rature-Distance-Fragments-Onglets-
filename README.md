@@ -1,48 +1,40 @@
-# 🌡️ ConverterTabsJava - Application de Conversion
+# ConverterTabsJava - Application de Conversion
 
-<div align="center">
+##  Table des Matières
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+- [ ConverterTabsJava - Application de Conversion](#️-convertertabsjava---application-de-conversion)
+  - [ Table des Matières](#-table-des-matières)
+  - [ Fonctionnalités](#-fonctionnalités)
+  - [ Technologies Utilisées](#️-technologies-utilisées)
+  - [ Structure du Projet](#-structure-du-projet)
+  - [ Installation](#️-installation)
+  - [ Utilisation](#-utilisation)
+  - [Conversion Température](#conversion-température)
+  - [Conversion Distance](#conversion-distance)
+  - [Sortie de l'Application](#sortie-de-lapplication)
+  - [Formules de Conversion](#-formules-de-conversion)
+  - [Dépendances](#-dépendances)
+  - [Développement](#-développement)
+  - [Captures d'Écran](#-captures-décran)
+ 
 
-**Application Android avec onglets pour convertir températures et distances**
-
-[Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Structure](#-structure-du-projet)
-
-</div>
-
-## 📋 Table des Matières
-
-- [🌡️ ConverterTabsJava - Application de Conversion](#️-convertertabsjava---application-de-conversion)
-  - [📋 Table des Matières](#-table-des-matières)
-  - [🚀 Fonctionnalités](#-fonctionnalités)
-  - [🛠️ Technologies Utilisées](#️-technologies-utilisées)
-  - [📁 Structure du Projet](#-structure-du-projet)
-  - [⚙️ Installation](#️-installation)
-  - [🎯 Utilisation](#-utilisation)
-    - [Conversion Température](#conversion-température)
-    - [Conversion Distance](#conversion-distance)
-    - [Sortie de l'Application](#sortie-de-lapplication)
-  - [📊 Formules de Conversion](#-formules-de-conversion)
-  - [🔧 Dépendances](#-dépendances)
-  - [👨‍💻 Développement](#-développement)
-  - [📸 Captures d'Écran](#-captures-décran)
-  - [🤝 Contribution](#-contribution)
-  - [📄 Licence](#-licence)
-
-## 🚀 Fonctionnalités
+## Téléchargement##
+## APK de l'Application
+## Téléchargez l'APK directement pour l'installer sur votre appareil Android :
+## 📲 Télécharger l'APK (Lien Google Drive)
+ 
+##  Fonctionnalités
 
 | Fonctionnalité | Description |
 |---------------|-------------|
-| **🌡️ Conversion Température** | Conversion bidirectionnelle Celsius ↔ Fahrenheit |
-| **📏 Conversion Distance** | Conversion bidirectionnelle Kilomètres ↔ Miles |
-| **📱 Interface à Onglets** | Navigation intuitive entre les différentes conversions |
-| **🔔 Menu Quitter** | Option de sortie dans le menu de l'application |
-| **⚠️ Confirmation de Sortie** | Boîte de dialogue de confirmation lors de l'appui sur retour |
-| **🎨 Material Design** | Interface moderne et conforme aux guidelines Material Design |
+| **Conversion Température** | Conversion bidirectionnelle Celsius ↔ Fahrenheit |
+| **Conversion Distance** | Conversion bidirectionnelle Kilomètres ↔ Miles |
+| **Interface à Onglets** | Navigation intuitive entre les différentes conversions |
+| **Menu Quitter** | Option de sortie dans le menu de l'application |
+| **Confirmation de Sortie** | Boîte de dialogue de confirmation lors de l'appui sur retour |
+| **Material Design** | Interface moderne et conforme aux guidelines Material Design |
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 | Composant | Technologie |
 |-----------|-------------|
@@ -52,7 +44,7 @@
 | **UI Components** | TabLayout, AlertDialog, RadioGroup |
 | **Build Tool** | Gradle |
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 ConverterTabsJava/
@@ -77,7 +69,7 @@ ConverterTabsJava/
 └── build.gradle.kts                       # Configuration Gradle
 ```
 
-## ⚙️ Installation
+## Installation
 
 ### Prérequis
 - Android Studio (version récente)
@@ -98,9 +90,9 @@ ConverterTabsJava/
    - Cliquer sur "Sync Now" lorsque demandé
 
 4. **Compiler et exécuter**
-   - ▶️ Run → Select Device → Choisir un émulateur/appareil
+   -  Run → Select Device → Choisir un émulateur/appareil
 
-## 🎯 Utilisation
+## Utilisation
 
 ### Conversion Température
 1. **Sélectionner le sens de conversion**
@@ -134,7 +126,7 @@ ConverterTabsJava/
 - **Méthode 2** : Bouton retour physique/personnalisé
 - **Confirmation** : Boîte de dialogue demande confirmation
 
-## 📊 Formules de Conversion
+## Formules de Conversion
 
 ### Température
 | Conversion | Formule |
@@ -148,7 +140,7 @@ ConverterTabsJava/
 | **Kilomètres → Miles** | `miles = km × 0.6214` |
 | **Miles → Kilomètres** | `km = miles / 0.6214` |
 
-## 🔧 Dépendances
+## Dépendances
 
 ```kotlin
 dependencies {
@@ -164,15 +156,15 @@ dependencies {
 }
 ```
 
-## 👨‍💻 Développement
+## Développement
 
 ### Compétences mises en œuvre
-- ✅ Fragments et ViewPager2
-- ✅ TabLayout avec TabLayoutMediator
-- ✅ Gestion des événements utilisateur
-- ✅ Dialogues de confirmation Material Design
-- ✅ Interface responsive
-- ✅ Validation des entrées utilisateur
+-  Fragments et ViewPager2
+-  TabLayout avec TabLayoutMediator
+-  Gestion des événements utilisateur
+-  Dialogues de confirmation Material Design
+-  Interface responsive
+-  Validation des entrées utilisateur
 
 ### Architecture
 ```
@@ -184,61 +176,17 @@ MainActivity
     └── ViewPager2
 ```
 
-## 📸 Captures d'Écran
+## Captures d'Écran
 
-*(À ajouter : captures d'écran de l'application)*
 
-| Onglet Température | Onglet Distance | Menu Quitter |
-|-------------------|-----------------|--------------|
-| *Capture 1* | *Capture 2* | *Capture 3* |
 
-## 🤝 Contribution
+https://github.com/user-attachments/assets/1b8abe46-827d-4792-9a34-dd61b2c9512c
 
-Les contributions sont les bienvenues ! Pour contribuer :
 
-1. Fork le projet
-2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
-3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
-4. Push sur la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
 
-## 📄 Licence
 
-Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+https://github.com/user-attachments/assets/78d21309-f654-4e8c-adf7-46605a9a252c
 
----
 
-<div align="center">
 
-**Développé avec ❤️ pour l'apprentissage Android**
 
-*Si ce projet vous a été utile, n'hésitez pas à lui donner une ⭐ !*
-
-</div>
-
----
-
-Pour créer ce fichier README.md, utilisez cette commande PowerShell :
-
-```powershell
-# Créer le fichier README.md avec le contenu complet
-@'
-# 🌡️ ConverterTabsJava - Application de Conversion
-
-<div align="center">
-
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-
-**Application Android avec onglets pour convertir températures et distances**
-
-[Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Structure](#-structure-du-projet)
-
-</div>
-
-... (le contenu complet du README ci-dessus)
-'@ | Out-File -FilePath "README.md" -Encoding utf8
-```
-
-Ce README est bien organisé avec une table des matières, des badges, des tableaux explicatifs et une structure claire qui rend le projet professionnel et facile à comprendre.
